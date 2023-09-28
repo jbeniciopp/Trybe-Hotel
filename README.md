@@ -8,9 +8,6 @@
 - Entender do funcionamento do banco de dados SQL Server.
 - Criar operações de manipulação de banco de dados em uma API.
 
-## Pre Requisitos
-- 
-
 ## Como instalar
 1. Clone o repositório
 
@@ -26,6 +23,10 @@
 ## Como rodar o projeto
 - Use o comando para iniciar o Banco de Dados:
   - `docker compose up -d --build`
+- Use o comando para o dotnet fazer as migrations:
+  - `dotnet ef migrations add InitialCreate`
+- Use o comando para criar as tabelas do Banco de Dados:
+  - `dotnet ef database update`
 - Use o comando para iniciar a API:
   - `dotnet run`
 

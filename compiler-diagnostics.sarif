@@ -78,10 +78,115 @@
               "resultFile": {
                 "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Services/GeoService.cs",
                 "region": {
-                  "startLine": 23,
+                  "startLine": 22,
                   "startColumn": 20,
-                  "endLine": 23,
+                  "endLine": 22,
                   "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Services/GeoService.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 23,
+                  "endLine": 35,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possível argumento de referência nula para o parâmetro 'latitudeOrigin' em 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Services/GeoService.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 50,
+                  "endLine": 55,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possível argumento de referência nula para o parâmetro 'longitudeOrigin' em 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Services/GeoService.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 68,
+                  "endLine": 55,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possível argumento de referência nula para o parâmetro 'latitudeDestiny' em 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Services/GeoService.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 86,
+                  "endLine": 55,
+                  "endColumn": 103
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possível argumento de referência nula para o parâmetro 'longitudeDestiny' em 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Services/GeoService.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 105,
+                  "endLine": 55,
+                  "endColumn": 122
                 }
               }
             }
@@ -112,111 +217,6 @@
           }
         },
         {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Services/GeoService.cs",
-                "region": {
-                  "startLine": 37,
-                  "startColumn": 23,
-                  "endLine": 37,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possível argumento de referência nula para o parâmetro 'latitudeOrigin' em 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Services/GeoService.cs",
-                "region": {
-                  "startLine": 58,
-                  "startColumn": 50,
-                  "endLine": 58,
-                  "endColumn": 66
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possível argumento de referência nula para o parâmetro 'longitudeOrigin' em 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Services/GeoService.cs",
-                "region": {
-                  "startLine": 58,
-                  "startColumn": 68,
-                  "endLine": 58,
-                  "endColumn": 84
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possível argumento de referência nula para o parâmetro 'latitudeDestiny' em 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Services/GeoService.cs",
-                "region": {
-                  "startLine": 58,
-                  "startColumn": 86,
-                  "endLine": 58,
-                  "endColumn": 103
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possível argumento de referência nula para o parâmetro 'longitudeDestiny' em 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Services/GeoService.cs",
-                "region": {
-                  "startLine": 58,
-                  "startColumn": 105,
-                  "endLine": 58,
-                  "endColumn": 122
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "CA1050",
           "level": "note",
           "message": "Declare types in namespaces",
@@ -225,9 +225,9 @@
               "resultFile": {
                 "uri": "file:///home/joaob/Projetos-Portifolio/Trybe-Hotel/Program.cs",
                 "region": {
-                  "startLine": 99,
+                  "startLine": 102,
                   "startColumn": 22,
-                  "endLine": 99,
+                  "endLine": 102,
                   "endColumn": 29
                 }
               }
